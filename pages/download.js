@@ -59,7 +59,7 @@ function Download() {
               </h1>
               <h3>{data.downloaddesc}</h3>
 
-              <embed src={data.downloadlink} width="800px" height="800px" />
+              <embed src={data.downloadlink} width="500px" height="800px" />
               <div className="p-3 text-center">
                 <a
                   href={data.downloadlink}
