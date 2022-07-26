@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Nav from './widget/nav';
 import Footer from './widget/footer';
+import Contact from './widget/contact';
 import data from './data/page.json';
 let title = 'about';
 function Download() {
@@ -68,6 +69,7 @@ function Download() {
                 </a>
               </div>
             </section>
+            <Contact />
           </main>
         </div>
         <Footer />

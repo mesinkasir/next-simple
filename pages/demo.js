@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Nav from './widget/nav';
 import Footer from './widget/footer';
+import Contact from './widget/contact';
 import data from './data/page.json';
 function Demo() {
   return (
@@ -131,6 +132,7 @@ function Demo() {
                 ></iframe>
               </div>
             </section>
+            <Contact />
           </main>
         </div>
         <Footer />

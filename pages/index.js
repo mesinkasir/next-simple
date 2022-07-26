@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Nav from './widget/nav';
 import Footer from './widget/footer';
+import Contact from './widget/contact';
 import data from './data/home.json';
 export default function Home() {
   return (
@@ -106,6 +107,7 @@ export default function Home() {
               </h3>
               <p>{data.text7}</p>
             </section>
+            <Contact />
           </main>
         </div>
         <Footer />
