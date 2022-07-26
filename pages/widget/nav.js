@@ -14,7 +14,7 @@ function Nav() {
       </Link>
       <a
         title="download source code"
-        class="nav-link border-bottom border-dark p-1"
+        className="nav-link border-bottom border-dark p-1"
         href="https://github.com/mesinkasir/next-simple/archive/refs/heads/main.zip"
       >
         <svg
