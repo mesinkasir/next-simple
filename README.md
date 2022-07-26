@@ -1,3 +1,3 @@
-# next-simple
+# Simple Next Site
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/next-simple)
+Just simpleee........
