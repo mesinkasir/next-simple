@@ -12,7 +12,11 @@ function Nav() {
       <Link className="nav-link border-bottom border-dark p-1" href={data.url3}>
         {data.menu3}
       </Link>
-      <a class="nav-link border-bottom border-dark p-1" href="/">
+      <a
+        title="download source code"
+        class="nav-link border-bottom border-dark p-1"
+        href="https://github.com/mesinkasir/next-simple/archive/refs/heads/main.zip"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"

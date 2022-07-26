@@ -7,6 +7,7 @@ function Demo() {
   return (
     <div>
       <Head>
+        <meta content={data.gst} name="google-site-verification" />
         <title>{data.title}</title>
         <meta content={data.title} property="og:title" />
         <meta content={data.title} name="facebook:title" />
