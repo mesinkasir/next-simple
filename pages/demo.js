@@ -48,10 +48,10 @@ function Demo() {
         <meta content="website" property="og:type" />
         <meta content="index, follow" name="robots" />
       </Head>
-      <div class="container">
+      <div className="container">
         <Nav />
-        <div class="row mt-5">
-          <main class="col-md-8 offset-md-2 mt-5">
+        <div className="row mt-5">
+          <main className="col-md-8 offset-md-2 mt-5">
             <section>
               <h1>
                 <strong>
@@ -64,7 +64,7 @@ function Demo() {
               <h3>
                 <a href="/demo">{data.pos}</a>
               </h3>
-              <div class="ratio ratio-16x9">
+              <div className="ratio ratio-16x9">
                 <iframe
                   src={data.posvideo}
                   title={data.pos}
@@ -74,7 +74,7 @@ function Demo() {
               <h3>
                 <a href="/demo">{data.android}</a>
               </h3>
-              <div class="ratio ratio-16x9">
+              <div className="ratio ratio-16x9">
                 <iframe
                   src={data.androidvideo}
                   title={data.android}
@@ -84,7 +84,7 @@ function Demo() {
               <h3>
                 <a href="/demo">{data.register}</a>
               </h3>
-              <div class="ratio ratio-16x9">
+              <div className="ratio ratio-16x9">
                 <iframe
                   src={data.registervideo}
                   title={data.register}
@@ -94,7 +94,7 @@ function Demo() {
               <h3>
                 <a href="/demo">{data.retail}</a>
               </h3>
-              <div class="ratio ratio-16x9">
+              <div className="ratio ratio-16x9">
                 <iframe
                   src={data.retailvideo}
                   title={data.retail}
@@ -104,7 +104,7 @@ function Demo() {
               <h3>
                 <a href="/demo">{data.resto}</a>
               </h3>
-              <div class="ratio ratio-16x9">
+              <div className="ratio ratio-16x9">
                 <iframe
                   src={data.restovideo}
                   title={data.resto}
@@ -114,7 +114,7 @@ function Demo() {
               <h3>
                 <a href="/demo">{data.bonus}</a>
               </h3>
-              <div class="ratio ratio-16x9">
+              <div className="ratio ratio-16x9">
                 <iframe
                   src={data.bonusvideo}
                   title={data.bonus}
@@ -124,7 +124,7 @@ function Demo() {
               <h3>
                 <a href="/demo">{data.barcode}</a>
               </h3>
-              <div class="ratio ratio-16x9">
+              <div className="ratio ratio-16x9">
                 <iframe
                   src={data.barcodevideo}
                   title={data.barcode}

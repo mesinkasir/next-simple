@@ -47,10 +47,10 @@ export default function Home() {
         <meta content="website" property="og:type" />
         <meta content="index, follow" name="robots" />
       </Head>
-      <div class="container">
+      <div className="container">
         <Nav />
-        <div class="row mt-5">
-          <main class="col-md-8 offset-md-2 mt-5">
+        <div className="row mt-5">
+          <main className="col-md-8 offset-md-2 mt-5">
             <section>
               <h1>
                 <strong>

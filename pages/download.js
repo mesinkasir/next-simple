@@ -49,10 +49,10 @@ function Download() {
         <meta content="website" property="og:type" />
         <meta content="index, follow" name="robots" />
       </Head>
-      <div class="container">
+      <div className="container">
         <Nav />
-        <div class="row mt-5">
-          <main class="col-md-8 offset-md-2 mt-5">
+        <div className="row mt-5">
+          <main className="col-md-8 offset-md-2 mt-5">
             <section>
               <h1>
                 <a href={data.downloadurl}>{data.download}</a>
@@ -60,10 +60,10 @@ function Download() {
               <h3>{data.downloaddesc}</h3>
 
               <embed src={data.downloadlink} width="800px" height="800px" />
-              <div class="p-3 text-center">
+              <div className="p-3 text-center">
                 <a
                   href={data.downloadlink}
-                  class="btn btn-dark btn-lg text-light"
+                  className="btn btn-dark btn-lg text-light"
                 >
                   {data.downloadbtn}
                 </a>
