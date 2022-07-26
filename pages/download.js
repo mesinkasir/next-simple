@@ -9,15 +9,15 @@ function Download() {
     <div>
       <Head>
         <meta content={data.gst} name="google-site-verification" />
-        <title>{data.title}</title>
-        <meta content={data.title} property="og:title" />
-        <meta content={data.title} name="facebook:title" />
-        <meta content={data.title} name="twitter:title" />
-        <meta content={data.title} name="keywords" />
-        <meta content={data.title} property="og:site_name" />
-        <meta content={data.desc} name="description" />
-        <meta content={data.desc} name="twitter:description" />
-        <meta content={data.desc} name="facebook:description" />
+        <title>{data.download}</title>
+        <meta content={data.download} property="og:title" />
+        <meta content={data.download} name="facebook:title" />
+        <meta content={data.download} name="twitter:title" />
+        <meta content={data.download} name="keywords" />
+        <meta content={data.download} property="og:site_name" />
+        <meta content={data.downloaddesc} name="description" />
+        <meta content={data.downloaddesc} name="twitter:description" />
+        <meta content={data.downloaddesc} name="facebook:description" />
         <meta content="summary_large_image" name="twitter:card" />
         <meta
           content="https://twitter.com/hockeycomp"
@@ -59,7 +59,7 @@ function Download() {
               </h1>
               <h3>{data.downloaddesc}</h3>
 
-              <embed src={data.downloadlink} width="500px" height="800px" />
+              <embed src={data.downloadlink} width="440px" height="800px" />
               <div className="p-3 text-center">
                 <a
                   href={data.downloadlink}
